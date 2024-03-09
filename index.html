@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!--Metadatos-->
+    <meta charset="utf-8">
+    <meta name="author" content="HéctorGC">
+    <meta name="description" content="Portafolio de desarrollo web de HéctorGC">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Titulo-->
+    <title>HéctorGC | Desarrollo Web front-End</title>
+    <!--Favicon-->
+   <link rel="icon" type="image/x-icon" href="imagenes/asterisk.svg">
+    <!--Bootstrap--> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!--Iconos Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!--CSS-->
+    <link href="style.css" rel="stylesheet">
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Diphylleia&display=swap" rel="stylesheet">
+  </head>
+  <body>
+   
+    <!--Barra de navegacion-->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img src="imagenes/asterisk.svg" width="50" alt="Logo pagina web">
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Sobre mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#experiencia">Experiencia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#contacto">Contacto</a>
+            </li>
+          </ul>
+          
+        </div>
+      </div>
+    </nav>
+   
+    <!--Seccion Hero-->
+    <section class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img class="hero-imagen-perfil" src="imagenes/1706443164820.jpg" alt="Foto Héctor Garaboa">
+        <h1>Hola, soy Héctor Garaboa</h1>
+        <h2>Estudiante de DAW, futuro programador</h2>
+
+      </div>
+      
+    </section>
+    <!--Sobre mi-->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">Sobre mi</h2>
+        <p class="seccion-texto">
+          Desde pequeño me ha interesado el mundo de la informática. Siempre me resultaba intrigante porque era como "magia".
+           Por mi falta de conocimientos en la vida, pensé que esto tampoco tenía unas condiciones laborales muy allá o que 
+           era difícil de entrar en el "mundillo", así que decidí aventurarme en otra pasión mía: la cocina. 
+           Por diversas razones no me he dedicado profesionalmente a cocinar, pero sí a ser camarero, siendo un trabajo que en sí mismo me gusta, aunque otra cosa es el sector de la hostelería. 
+           Decidí dar el salto a estudiar programación al descubrir que este sector es muy bueno, tiene unas condiciones que para mí son envidiables y que, sobre todo, porque siempre me gustó.
+        </p>
+      </div>
+    </section>
+
+    <!--Experiencia-->
+    <section id="experiencia"class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!--Desarrollo Web-->
+          <div class="column col-12 col-md-4 desarrollo-web">
+            <i class="bi bi-wifi"></i>
+            <p class="experiencia-titulo">Desarrollo Web</p>
+            <p>Mi experiencia en desarrollo web es escasa mas allá de ejercicios realizados en clase.</p>
+            <div class="badges-contenedor">
+            <span class="badge text-bg-primary">HTML</span>
+            <span class="badge text-bg-primary">CSS</span>
+            <span class="badge text-bg-primary">Bootstrap</span>
+            </div>
+          </div>
+
+          <!--Intereses-->
+          <div class="column col-12 col-md-4 intereses">
+            <i class="bi bi-bookmark-heart"></i>
+            <p class="experiencia-titulo">Intereses</p>
+            <p>Me gustaria aprender y formarme para ser un programador full-stack. </p>
+            <div class="badges-contenedor">
+            <span class="badge text-bg-primary">Python</span>
+            <span class="badge text-bg-primary">Angular</span>
+            <span class="badge text-bg-primary">Git</span>
+            <span class="badge text-bg-primary">MongoDB</span>
+          </div>
+          </div>
+
+          <!--Estudios-->
+          <div class="column col-12 col-md-4 estudios">
+            <i class="bi bi-journal-check"></i>
+            <p class="experiencia-titulo">Estudios</p>
+            <p>Realizando Desarrollo de Aplicaciones Web en el CIFP Rodolfo Ucha.</p>
+            <div class="badges-contenedor">
+            <span class="badge text-bg-primary">1ºDAW</span>
+            <span class="badge text-bg-primary">Java</span>
+            <span class="badge text-bg-primary">SQL</span>
+            
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+
+    </section>
+    
+    <!--Proyectos-->
+    <section id="proyectos"class="proyectos seccion-oscura d-flex flex-column">
+      <h2 class="seccion-titulo">Mis Proyectos</h2>
+      <h3 class="seccion-descripcion">Proyectos realizados y subidos a Github</h3>
+      <!--Galeria-->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!--Proyectos Java-->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/proyecto1.jpg" alt="proyecto 1">
+              <div class="overlay">
+                <p>Java</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/hgaraboa7/Pruebas" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!--Proyectos BBDD-->
+          <div class="col-12 col-md-6 col-lg-4 ">
+            <div class="proyecto">
+              <img src="imagenes/proyecto3.jpg" alt="proyecto 3">
+              <div class="overlay">
+                <p>SQL</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/hgaraboa7/Bases-de-Datos" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Proyectos LMSGI-->
+          <div class="col-12 col-md-6 col-lg-4 mx-auto">
+            <div class="proyecto">
+              <img src="imagenes/proyecto2.jpg" alt="proyecto 2">
+              <div class="overlay">
+                <p>LMSGI</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/hgaraboa7/Lenguaje-de-Marcas" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+    </section>
+
+    
+    
+    <!--Contacto-->
+    <section id="contacto"class="contacto seccion-clara">
+      <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+              Contactame
+            </div>
+            <div class="col-12 col-md-4 seccion-descripcion">
+              Enviame un correo para mas información.
+            </div>
+
+            <div class="col-12 col-md-4">
+              <a href="mailto:correoejemplo1@ejemplocorreo.com">
+                <button type="button">
+                  Correo
+                  <i class="bi bi-envelope-arrow-up-fill"></i>
+                </button>
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+
+    </section>
+
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
